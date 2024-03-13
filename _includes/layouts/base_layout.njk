@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Favicons -->
+    <link rel="apple-touch-icon" sizes="180x180" href="{{ relativePath }}assets/favicons/apple-touch-icon.png"/>
+    <link rel="icon" type="image/png" sizes="32x32" href="{{ relativePath }}assets/favicons/favicon-32x32.png"/>
+    <link rel="icon" type="image/png" sizes="16x16" href="{{ relativePath }}assets/favicons/favicon-16x16.png"/>
+
+    <!-- Bootstrap CSS -->
+    <link href="{{ relativePath }}css/bootstrap.min.css" rel="stylesheet"/>
+    <link href="{{ relativePath }}css/lris.css" rel="stylesheet"/>
+
+    <title>{{ title }}</title>
+  </head>
+  <body>
+    <!-- Content -->
+    <div class="container-fluid">
+    {{ content | safe }}
+    </div>
+    <!-- Bootstrap JS -->
+    <script src="{{ relativePath }}js/bootstrap.bundle.min.js"</script>
+  </body>
+</html>
+
